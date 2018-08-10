@@ -1,0 +1,12 @@
+.tips1 {
+  display:flex;
+  align-content:center;
+
+}
+.tips1 image {
+  width:40rpx;
+  height:40rpx;
+}
+.tips1 text {
+  font-size:30rpx;
+}
