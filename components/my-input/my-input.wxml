@@ -1,0 +1,7 @@
+<!--components/my-input/my-input.wxml-->
+<view class="my-input">
+  <input placeholder="{{myInput.placeholder}}" auto-focus="{{myInput.autoFocus}}"/>
+  <block wx:if="{{myInput.isVcode}}">
+    <text class="vcode">获取验证码</text>
+  </block>
+</view>

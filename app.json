@@ -3,13 +3,15 @@
     "pages/home/home",
     "pages/study/study",
     "pages/mine/mine",
-    "pages/course/course"
+    "pages/course/course",
+    "pages/course_detail/course_detail",
+    "pages/mobilePage/mobilePage"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#ff547c",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "color": "#cccccc",

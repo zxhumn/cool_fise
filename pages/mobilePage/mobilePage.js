@@ -1,21 +1,26 @@
-// pages/course/course.js
-import course from '../../datas/course.js';
+// pages/mobilePage/mobilePage.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  
+    mobile:{
+      placeholder:'请输入手机号',
+      autoFocus:true
+    },
+    vcode:{
+      placeholder: '请输入验证码',
+      isVcode:true,
+      autoFocus: false
+    }
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.setData({
-      course,
-    })
+  
   },
 
   /**
@@ -23,13 +28,6 @@ Page({
    */
   onReady: function () {
   
-  },
-  getTapCourses(e){
-    // console.log(e.detail)
-    wx.navigateTo({
-      url: `/pages/course_detail/course_detail?id=${e.detail.id}&title=${e.detail.title}`,
-      
-    })
   },
 
   /**

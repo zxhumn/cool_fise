@@ -1,0 +1,29 @@
+/* pages/mobilePage/mobilePage.wxss */
+.mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100rpx;
+}
+.my-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.my-inputs .tips{
+  font-size: 28rpx;
+ color:#999999;
+}
+.validatebind {
+  position:absolute;
+  bottom: 100rpx;
+  width:500rpx;
+  height: 100rpx;
+  background-color: #FF547C;
+  border-radius: 50rpx;
+  text-align: center;
+  line-height: 100rpx;
+  color:#ffffff;
+  box-shadow:  10rpx 0rpx 40rpx rgba(255,84,124,0.47);
+}

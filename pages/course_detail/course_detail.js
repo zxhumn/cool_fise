@@ -1,5 +1,4 @@
-// pages/course/course.js
-import course from '../../datas/course.js';
+// pages/course_detail/course_detail.js
 Page({
 
   /**
@@ -13,8 +12,9 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.setData({
-      course,
+    // console.log(options)
+    wx.setNavigationBarTitle({
+      title: options.title,
     })
   },
 
@@ -23,13 +23,6 @@ Page({
    */
   onReady: function () {
   
-  },
-  getTapCourses(e){
-    // console.log(e.detail)
-    wx.navigateTo({
-      url: `/pages/course_detail/course_detail?id=${e.detail.id}&title=${e.detail.title}`,
-      
-    })
   },
 
   /**

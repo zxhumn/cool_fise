@@ -1,0 +1,14 @@
+/* components/my-input/my-input.wxss */
+.my-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  width:600rpx;
+  height:100rpx;
+  border-radius: 80rpx;
+  padding:0 40rpx;
+  font-size: 30rpx;
+  margin-bottom: 30rpx;
+  
+}

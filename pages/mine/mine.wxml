@@ -1,2 +1,19 @@
-<!--pages/mine/mine.wxml-->
-<text>pages/mine/mine.wxml</text>
+<view>
+  <!-- 头像 -->
+  <view class="avatar">
+    <image src="/images/头像 男孩.png"></image>
+    <text>酷酷</text>
+  </view>
+  <!-- 过期时间 -->
+  <view class="expiresDate">
+    <settings settings="{{expiresData}}" />
+  </view>
+    
+  <!-- 其他设置 -->
+  <view class="otherSettings">
+    <block wx:for="{{settings}}" wx:key="{{item.title}}">
+      <settings settings="{{item}}" />
+    </block>
+    
+  </view>
+</view>

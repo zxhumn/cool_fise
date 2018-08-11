@@ -1,0 +1,13 @@
+<!--pages/mobilePage/mobilePage.wxml-->
+<view class="mobile">
+<!-- 上部分的 -->
+  <view class="my-inputs">
+    <my-input myInput="{{mobile}}" />
+     <my-input myInput="{{vcode}}" />
+      <text class="tips">绑定手机成功后可免费获得三天体验VIP哦~</text>
+  </view>
+  <!-- 下部分的 -->
+  <view class="validatebind">
+    <text>验证绑定</text>
+  </view>
+</view>

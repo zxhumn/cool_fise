@@ -1,0 +1,10 @@
+<view class="course">
+  <image src="{{courses.img_url}}"></image>
+  <view class="title">
+    <text class="title1">{{courses.title}}</text>
+    <text class="subtitle">{{courses.subtitle}}</text>
+  </view>
+  <view bindtap="clickCourse" data-id="{{courses.id}}" data-title="{{courses.title}}" data-is-full="{{courses.isFull}}" class="tips" style="background-color:{{courses.isFull?'#CACACA':'#FF547C'}}">
+    <text>{{courses.isFull?"人数满额":"了解课程"}}</text>
+  </view>
+</view>

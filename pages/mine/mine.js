@@ -5,7 +5,36 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    expiresData:{
+      title:'VIP会员到期时间',
+      type:'date',
+      date:new Date(),
+    },
+    settings:[
+      {
+        title: '绑定手机号',
+        type: "arrow",
+        navigateTo:"/pages/mobilePage/mobilePage"
+
+      },
+      {
+        title: '我的关注',
+        type: 'arrow'
+      },
+      {
+        title: '使用须知',
+        type: 'arrow'
+      },
+      {
+        title: '我的客服',
+        type: 'arrow'
+      },
+      {
+        title: '就收消息',
+        type: 'switch'
+      }
+
+    ]
   },
 
   /**

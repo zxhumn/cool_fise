@@ -1,5 +1,5 @@
 <template name="tips2">
-  <view class="tips2">
+  <view bindtap='more' class="tips2">
     <text>{{content}}</text>
     <image src="{{img_url}}"></image>
   </view>

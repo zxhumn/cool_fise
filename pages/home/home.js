@@ -41,7 +41,12 @@ Page({
   onReady: function () {
   
   },
-
+  more(e){
+    // console.log(e)
+    wx.switchTab({
+      url: '/pages/course/course'
+    })
+  },
   /**
    * 生命周期函数--监听页面显示
    */

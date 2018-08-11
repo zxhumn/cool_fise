@@ -1,1 +1,25 @@
 /* pages/mine/mine.wxss */
+.avatar {
+  height: 400rpx;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+
+}
+.avatar image {
+  width:160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+}
+.avatar text {
+  margin-top: 20rpx;
+}
+.expiresDate {
+  margin-top: 30rpx;
+}
+.otherSettings {
+  margin-top: 30rpx;
+}
